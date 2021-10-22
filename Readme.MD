@@ -21,7 +21,6 @@ Word2Vec (W2V) is implemented in Spacy. After installing spacy in your Python en
 
 `python -m spacy download en_core_web_md`
 
-Spacy documentation can be found at
 Note: Check that `python` refers to the relevant Python interpreter.
 
 Next, you can load the model by:

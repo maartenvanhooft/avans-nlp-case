@@ -9,14 +9,14 @@ Using pandas.
 Pandas documentation at: `https://pandas.pydata.org/docs/`
 
 ## Step 2: Document embeddings
-### Option 1: Create TF-IDF yourself
+### Option 1: Use TF-IDF
 You can choose to implement TFIDF yourself, but you can also use an existing implementation. It's in scikit-learn (sklearn) and can be imported via:
 `from sklearn.feature_extraction.text import TfidfVectorizer`
 
 Sklearn's TFIDF documentation at:
 `https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html`
 
-### Option 2: Use implementation of W2V
+### Option 2: Use W2V
 Word2Vec (W2V) is implemented in Spacy. After installing spacy in your Python environment, you can install a pretrained W2V model via your terminal:
 
 `python -m spacy download en_core_web_md`
